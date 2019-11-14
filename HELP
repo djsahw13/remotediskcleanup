@@ -1,0 +1,14 @@
+Hi Myrianthi,
+
+sorry to post my help like this, but i coudln't find anywhere to send you message about your script remotediskcleanup.ps1
+its very nice script.
+I have a task to perform disk cleanup on about 300 computers, including virtual machines in it.
+it works perfect on one machine to run, like it prompts the computer name I entered the computer name, it runs the script with verbose so we can see all the progress activity.
+however I needed to run this script on 300 computers, so i've created a SCCM package and then created a sccm program to run the script, tested deploying the script to laptop via SCCM it worked ok on laptop, but on virtal machine, when i looked in sofware center it said installed sucessfully but when i looked at the recycle bin or temp folder it hasn't cleaned up anything.
+
+please advise if i'm missing anything?
+
+also i was quite surprised your script worked quite well without user intervention asking for desktop name prompts, that is becuase i told the SCCM program to not have user inputs. so it will run silently, you can monitor the progress in percentage units (%) 
+
+
+thank you for you help & scrpt.
